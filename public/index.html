@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="The World Leaderboard of Pressing Every English Letter"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script>
+      const LETTER_TO_CLICK = window.location.hostname[0].toUpperCase();
+      document.title = LETTER_TO_CLICK + '-Clicker'
+      document.head = document.head || document.getElementsByTagName('head')[0];
+
+      var link = document.createElement('link'),
+      oldLink = document.getElementById('dynamic-favicon');
+      link.id = 'dynamic-favicon';
+      link.rel = 'shortcut icon';
+      if(!!LETTER_TO_CLICK) {
+        link.href = "%PUBLIC_URL%/icons/" + LETTER_TO_CLICK + ".ico";
+      }
+      if (oldLink) {
+        document.head.removeChild(oldLink);
+      }
+      document.head.appendChild(link);
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

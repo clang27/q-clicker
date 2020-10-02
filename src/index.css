@@ -1,0 +1,146 @@
+html, body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 1vw;
+    background: white;
+    color: #333333;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 0.25%;
+}
+
+/************************************Header*********************************/
+
+header {
+    --numberOfStats: 8;
+    --lengthOfBorder: 2px;
+    height: 5%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 0.95rem;
+}
+
+header > * {
+    display: inline-block;
+    text-align: center;
+    width: calc(100% / var(--numberOfStats));
+}
+
+header .first-stat {
+    text-align: left;
+    width: calc(100% / var(--numberOfStats) - var(--lengthOfBorder));
+    border-right: dashed #333333 var(--lengthOfBorder);
+}
+
+header .last-stat {
+    text-align: right;
+    width: calc(100% / var(--numberOfStats) - var(--lengthOfBorder));
+    border-left: dashed #333333 var(--lengthOfBorder);
+}
+
+.odometer {
+    font-family: "Courier New", Courier, monospace;
+    background: #444444;
+    color: #99ee99;
+    padding: 0px 2px;
+    line-height: 0px;
+}
+
+/*******************************EndOfHeader*********************************/
+/********************************Odometer***********************************/
+
+.speedometer-container {
+    height: 92%;
+    width: 100%;
+    text-align: center;
+}
+
+.speedometer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 55%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.speedometer #letter {
+    cursor: default;
+    font-size: 20rem;
+    color: black;
+    display: block;
+    line-height: 20rem;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome, Edge, Opera and Firefox */
+}
+
+.speedometer #pace {
+    height: 25%;
+    padding-top: 0.2rem;
+    margin-left: -20%;
+    width: 140%;
+    background: white;
+}
+
+.speedometer label {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.pace-odometer {
+    font-family: "Courier New", Courier, monospace;
+    padding: 1px 4px 0px 4px;
+    border-radius: 5%;
+    line-height: 0px;
+    border: solid black 0.01rem;
+}
+
+/*****************************EndOfOdometer*********************************/
+/*********************************Footer************************************/
+
+footer {
+    --height: 3%;
+    font-size: 0.8rem;
+    height: var(--height);
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+}
+
+footer img {
+    height: 100%;
+    margin-left: .3rem;
+}
+
+footer #version {
+    margin-right: .1rem;
+}
+/*******************************EndOfFooter*********************************/
