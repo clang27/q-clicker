@@ -1,8 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# \[A-Z\]-Clicker
 
-## Available Scripts
+Created with: `React, Node.js, and MongoDB` 
 
-In the project directory, you can run:
+A full-stack SPA that tracks local and global leaderboards of the following statistics:
+
+* Most Presses in (a) ...
+    * 1 Second
+    * 10 Seconds
+    * 30 Seconds
+    * 1 Minute
+    * 5 Minute
+* Longest Press
+* Total Presses
+* Time on the Website
+
+## NPM Stuff
 
 ### `npm start`
 

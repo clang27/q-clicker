@@ -3,19 +3,134 @@
   "name": "Q-Clicker",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "icons/A.ico",
+      "sizes": "32x32 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "icons/B.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "icons/C.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/D.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/E.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/F.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/G.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/H.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/I.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/J.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/K.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/L.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/M.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/N.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/O.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/P.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/Q.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/R.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/S.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/T.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/U.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/V.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/W.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/X.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/Y.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/Z.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",
