@@ -1,4 +1,4 @@
-# \[A-Z\]-Clicker
+# \[a-z\]-clicker.ga
 
 Created with: `React, Node.js, and MongoDB` 
 
