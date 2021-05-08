@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header'
 import Speedometer from './components/Speedometer'
 import Footer from './components/Footer'
-import {BUFFER_LENGTH, LETTER_TO_PRESS, MS, SECOND, STATS, averageKeyPressRate, totalKeyPressRate} from './util.js'
+import {averageKeyPressRate, BUFFER_LENGTH, LETTER_TO_PRESS, MS, SECOND, STATS, totalKeyPressRate} from './util.js'
 
 class App extends React.Component {
     // Buffers/temporary-memory used for many stats

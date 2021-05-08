@@ -4,33 +4,20 @@ import {LETTER_TO_PRESS} from '../util.js';
 class Speedometer extends React.Component {
   getSpeedometerStyle = () => {
     let {keyPressesSecond} = this.props.paceStats;
-    let bt = '1em solid transparent';
-    let br = '1em solid transparent';
-    let bl = '1em solid transparent';
-    let bb = '1em solid transparent';
-
-    if(keyPressesSecond > 0) {
-        bl = '1em solid #d43434';
-    }
-    if(keyPressesSecond > 6) {
-        bt = '1em solid #d43434';
-    }
-    if(keyPressesSecond > 10) {
-        br = '1em solid #d43434';
-    }
 
     return {
-        borderTop: bt,
-        borderBottom: bb,
-        borderLeft: bl,
-        borderRight: br,
+        borderTop: (keyPressesSecond > 6) ? '1em solid #d43434' : '1em solid white',
+        borderBottom: '1em solid transparent',
+        borderLeft: (keyPressesSecond > 0) ? '1em solid #d43434' : '1em solid white',
+        borderRight: (keyPressesSecond > 10) ? '1em solid #d43434' : '1em solid white',
         borderRadius: '50%'
     }
   };
 
   getLetterStyle = () => {
       return {
-          fontSize: (this.props.keyDown) ? '19.5rem' : '20rem'
+          fontSize: (this.props.keyDown) ? '20.5rem' : '21rem',
+          textShadow: (this.props.keyDown) ? '2px 2px 2px darkgray' : '4px 4px 4px darkgray'
       }
     };
 
